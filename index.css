@@ -1,3 +1,64 @@
+#top-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#header-beside-nav {
+  width: 160px;
+  margin: auto;
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+nav {
+  padding: 14px;
+}
+
 h1 {
-  color: red;
+  margin: auto;
+  width: 95%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+
+h2 {
+  margin: auto;
+  width: 98%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+
+h3 {
+  /* text-align: right; */
+}
+
+p {
+  margin: auto;
+  width: 94%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+
+ul {
+  margin: auto;
+  width: 90%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+
+main {
+  margin: auto;
+  width: 90%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+
+section {
+  margin: auto;
+  width: 92%;
+  /* border: 3px solid green; */
+  padding: 10px;
 }
