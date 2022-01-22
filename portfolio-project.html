@@ -5,7 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
-  <title>Document</title>
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Grey's Portfolio - 4 Portfolio website</title>
 </head>
 <body>
   <header id="top-header">
@@ -13,10 +15,15 @@
     <nav>
       <a href="./index.html">Home</a>
       <a href="./about.html">About</a>
-      <a href="./backend-project.html">Project 1 - Backend</a>
-      <a href="./frontend-project.html">Project 2 - Frontend</a>
-      <a href="./final-project.html">Project 3 - Final</a>
-      <a href="./portfolio-project.html">Project 4 - Website</a>
+      <div class="projects-dropdown">
+        <span onclick="showDropdown()" class="dropdown-button">Pieces<span id="down-arrow"><i class="fa fa-angle-down"></i></span><span id="up-arrow" class="up-arrow"><i class="fa fa-angle-up"></i></span></span>
+        <div id="dropdown-display" class="dropdown-content">
+          <a href="./backend-project.html">1 - Backend API</a>
+          <a href="./frontend-project.html">2 - Frontend web app</a>
+          <a href="./final-project.html">3 - Mobile app</a>
+          <a href="./portfolio-project.html">4 - Portfolio site</a>
+        </div>
+      </div>
       <a href="./contact.html">Contact</a>
     </nav>
   </header>

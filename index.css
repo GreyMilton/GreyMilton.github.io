@@ -1,12 +1,14 @@
 #top-header {
+  margin-left: 4%;
+  margin-right: 4%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
 #header-beside-nav {
   width: 160px;
-  margin: auto;
+  text-align: left;
   padding: 10px;
   font-size: 25px;
   text-decoration: none;
@@ -64,6 +66,7 @@ h1 {
   width: 95%;
   /* border: 3px solid green; */
   padding: 10px;
+  text-align: center;
 }
 
 h2 {
