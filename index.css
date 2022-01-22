@@ -61,8 +61,8 @@ nav a {
 }
 
 .dropdown-content {
-  background-color: rgba(73, 53, 53, 0.911);
-  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(73, 53, 53, 0.945);
+  border-radius: 0 0 10px 10px;
   display: none;
   position: absolute;
   min-width: 173px;
@@ -142,4 +142,20 @@ section {
   width: 92%;
   /* border: 3px solid green; */
   padding: 4px 10px 4px 10px;
+}
+
+.project-screenshot {
+  max-width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  max-width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
