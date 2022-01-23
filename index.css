@@ -193,8 +193,13 @@ figure {
 
 figcaption {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
+}
+
+.frontend-figure {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #portfolio-list-header {
