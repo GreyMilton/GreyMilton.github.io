@@ -180,11 +180,15 @@ section {
   border-radius: 4px;
 }
 
-figure {
+#portfolio-section-homepage figure {
   margin-top: 30px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+figure {
+  margin: auto;
 }
 
 figcaption {
