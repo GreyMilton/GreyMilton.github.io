@@ -4,4 +4,4 @@ This is the git repository (repo) for a *software development porfolio website* 
 
 ## Link to deployed version
 
-Please visit []() to view the version I have deployed online. Otherwise feel free to explore the code here at your leisure.
+Please visit [https://greymilton.github.io/](https://greymilton.github.io/) to view the version I have deployed online. Otherwise feel free to explore the code here at your leisure.
