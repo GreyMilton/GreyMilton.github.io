@@ -34,7 +34,7 @@ body {
 }
 
 nav {
-  padding: 5px 30px 2px 20px;
+  padding: 9px 30px 6px 20px;
   background-color: rgb(77, 122, 107);
   border-radius: 6px 0 0 6px;
 }
@@ -45,20 +45,39 @@ nav a {
   padding: 4px;
   font-family: 'Hind Guntur', sans-serif;
   font-size: 16px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: rgb(52, 81, 71);
 }
 
 .projects-dropdown {
   position: relative;
   display: inline-block;
   text-align: right;
-  padding: 4px;
   font-family: 'Hind Guntur', sans-serif;
   font-size: 16px;
 }
 
 .dropdown-button {
+  /* Remove default button styles */
+  appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+
   color: white;
   cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.dropdown-button:hover {
+  background-color: rgb(52, 81, 71);
 }
 
 .dropdown-content {
@@ -78,6 +97,10 @@ nav a {
   display: block;
   text-align: right;
   padding: 2px 12px 2px 0;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(60, 44, 44);
 }
 
 .up-arrow {
